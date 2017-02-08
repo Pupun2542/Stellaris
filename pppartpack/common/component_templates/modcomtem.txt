@@ -1,0 +1,453 @@
+# midcal
+weapon_component_template = {
+  type = instant
+
+  key = "t1_4in"
+  size = small
+  entity = "small_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_1"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_1" }
+  component_set = "t1midcal"
+  projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t2_4in"
+  power = -3
+	cost = 2.5
+	damage = { min = 5 max = 18 }
+	windup = { min = 4.0 max = 17.5 }
+	total_fire_time = 25
+	range = 50
+	accuracy = 0.75
+	tracking = 0.50
+}
+
+weapon_component_template = {
+  type = instant
+
+  key = "t1_6in"
+  size = medium
+  entity = "medium_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_1"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_1" }
+  component_set = "t1midcal"
+  projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t2_6in"
+  power = -4
+	cost = 3.5
+	damage = { min = 8 max = 22 }
+	windup = { min = 6.0 max = 19.0 }
+	total_fire_time = 25
+	range = 60
+	accuracy = 0.75
+	tracking = 0.45
+}
+
+weapon_component_template = {
+  type = instant
+
+  key = "t2_4in"
+  size = small
+  entity = "small_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_2"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_2" }
+  component_set = "t2midcal"
+  projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t3_5in"
+  power = -3
+	cost = 2.5
+	damage = { min = 5 max = 18 }
+	windup = { min = 4.0 max = 17.5 }
+	total_fire_time = 25
+	range = 50
+	accuracy = 0.80
+	tracking = 0.50
+  armor_penetration = 0.30
+}
+
+weapon_component_template = {
+  type = instant
+
+  key = "t2_6in"
+  size = medium
+  entity = "medium_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_2"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_2" }
+  component_set = "t2midcal"
+  projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t3_6in"
+  power = -4
+	cost = 3.5
+	damage = { min = 8 max = 22 }
+	windup = { min = 6.0 max = 19.0 }
+	total_fire_time = 25
+	range = 60
+	accuracy = 0.75
+	tracking = 0.45
+  armor_penetration = 0.35
+}
+weapon_component_template = {
+  type = instant
+
+  key = "t3_5in"
+  size = small
+  entity = "small_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_3"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_3" }
+  component_set = "t3midcal"
+  projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t4_5in"
+  power = -4
+	cost = 6
+	damage = { min = 7 max = 23 }
+	windup = { min = 4.5 max = 18.0 }
+	total_fire_time = 25
+	range = 50
+	accuracy = 0.80
+	tracking = 0.50
+  armor_penetration = 0.35
+  shield_penetration = 0.30
+}
+
+weapon_component_template = {
+  type = instant
+
+  key = "t3_6in"
+  size = medium
+  entity = "medium_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_3"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_3" }
+  component_set = "t3midcal"
+  projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t4_6in"
+  power = -6
+  cost = 7.0
+  damage = { min = 10 max = 24 }
+  windup = { min = 6.0 max = 19.0 }
+  total_fire_time = 25
+  range = 65
+  accuracy = 0.75
+  tracking = 0.45
+  armor_penetration = 0.35
+  shield_penetration = 0.35
+}
+weapon_component_template = {
+  type = instant
+
+  key = "t4_5in"
+  size = small
+  entity = "small_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_4"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_4" }
+  component_set = "t4midcal"
+  projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t4_5in"
+  power = -4
+  cost = 10.0
+  damage = { min = 7 max = 23 }
+  windup = { min = 4.5 max = 18.0 }
+  total_fire_time = 25
+  range = 70
+  accuracy = 0.80
+  tracking = 0.50
+  armor_penetration = 0.40
+  shield_penetration = 0.35
+}
+
+weapon_component_template = {
+  type = instant
+
+  key = "t4_6in"
+  size = medium
+  entity = "medium_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_4"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_4" }
+  component_set = "t4midcal"
+  projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "t5_6in"
+  power = -10
+  cost = 15.0
+  damage = { min = 12 max = 24 }
+  windup = { min = 6.0 max = 19.0 }
+  total_fire_time = 25
+  range = 80
+  accuracy = 0.75
+  tracking = 0.45
+  armor_penetration = 0.45
+  shield_penetration = 0.40
+}
+weapon_component_template = {
+  type = instant
+
+  key = "t5_5in"
+  size = small
+  entity = "small_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_5"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_5" }
+  component_set = "t2midcal"
+  projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+  power = -7
+  cost = 8.0
+  damage = { min = 8 max = 24 }
+  windup = { min = 3.0 max = 9.0 }
+  total_fire_time = 30
+  range = 70
+  accuracy = 0.75
+  tracking = 0.45
+  armor_penetration = 0.35
+  shield_penetration = 0.35
+  is_point_defence = yes
+}
+
+weapon_component_template = {
+  type = instant
+
+  key = "t5_6in"
+  size = medium
+  entity = "medium_kinetic_gun_entity"
+
+  icon = "GFX_ship_part_mass_driver_5"
+  icon_frame = 1
+
+  prerequisites = { "midcaliber_arty_5" }
+  component_set = "t5midcal"
+  projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+  power = -12
+  cost = 17.0
+  damage = { min = 12 max = 26 }
+  windup = { min = 4.0 max = 12.0 }
+  total_fire_time = 30
+  range = 80
+  accuracy = 0.75
+  tracking = 0.45
+  armor_penetration = 0.45
+  shield_penetration = 0.40
+  is_point_defence = yes
+}
+#mrls
+weapon_component_template = {
+  type = missile
+
+  key = "t1_mrls"
+  size = small
+  entity = "turret_missile_small_entity"
+
+  icon = "GFX_ship_part_missile_1"
+  icon_frame = 1
+
+  prerequisites = { "tech_mrls_1" }
+  component_set = "t1mrls"
+  projectile_gfx = "small_missile"
+  tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "t2_mrls"
+
+  target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000
+    power = -5
+    cost = 4.0
+    damage = { min = 1 max = 5 }
+    windup = { min = 0.25 max = 1.0 }
+    total_fire_time = 70
+    range = 50
+    accuracy = 0.75
+    tracking = 0.0
+	}
+}
+weapon_component_template = {
+  type = missile
+
+  key = "t2_mrls"
+  size = small
+  entity = "turret_missile_small_entity"
+
+  icon = "GFX_ship_part_missile_2"
+  icon_frame = 1
+
+  prerequisites = { "tech_mrls_2" }
+  component_set = "t2mrls"
+  projectile_gfx = "small_missile"
+  tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "t3_mrls"
+  target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000
+    power = -6
+    cost = 4.5
+    damage = { min = 1.5 max = 3.5 }
+    windup = { min = 0.25 max = 1.0 }
+    total_fire_time = 70
+    range = 50
+    accuracy = 0.80
+    tracking = 0.0
+    armor_damage = 0.30
+	}
+}
+weapon_component_template = {
+  type = missile
+
+  key = "t3_mrls"
+  size = small
+  entity = "turret_missile_small_entity"
+
+  icon = "GFX_ship_part_missile_3"
+  icon_frame = 1
+
+  prerequisites = { "tech_mrls_3" }
+  component_set = "t3mrls"
+  projectile_gfx = "small_missile"
+  tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "t4_mrls"
+  target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000
+    power = -6.5
+    cost = 5.0
+    damage = { min = 2.0 max = 4.0 }
+    windup = { min = 0.25 max = 1.0 }
+    total_fire_time = 70
+    range = 60
+    accuracy = 0.80
+    tracking = 0.0
+    shield_damage = 0.35
+	}
+}
+weapon_component_template = {
+  type = missile
+
+  key = "t4_mrls"
+  size = small
+  entity = "turret_missile_small_entity"
+
+  icon = "GFX_ship_part_missile_4"
+  icon_frame = 1
+
+  prerequisites = { "tech_mrls_4" }
+  component_set = "t4mrls"
+  projectile_gfx = "small_missile"
+  tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "t5_mrls"
+  target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000
+    power = -8
+    cost = 10
+    damage = { min = 3.0 max = 5.0 }
+    windup = { min = 0.25 max = 1.0 }
+    total_fire_time = 70
+    range = 60
+    accuracy = 0.80
+    tracking = 0.40
+    armor_damage = 0.50
+    shield_penetration = 0.75
+	}
+}
+weapon_component_template = {
+  type = missile
+
+  key = "t5_mrls"
+  size = small
+  entity = "turret_missile_small_entity"
+
+  icon = "GFX_ship_part_missile_5"
+  icon_frame = 1
+
+  prerequisites = { "tech_mrls_5" }
+  component_set = "t5mrls"
+  projectile_gfx = "small_missile"
+  tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_short_range }
+  target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000
+    power = -12
+    cost = 12
+    damage = { min = 7.0 max = 10.0 }
+    windup = { min = 0.25 max = 1.0 }
+    total_fire_time = 70
+    range = 70
+    accuracy = 0.90
+    tracking = 0.50
+    armor_penetration = 0.70
+    shield_penetration = 1
+	}
+}

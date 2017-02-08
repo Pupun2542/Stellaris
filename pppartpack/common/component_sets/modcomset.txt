@@ -1,0 +1,62 @@
+component_set = {
+	key = "t1midcal"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+companent_set = {
+	key = "t2midcal"
+
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+}
+
+companent_set = {
+	key = "t3midcal"
+
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+}
+companent_set = {
+	key = "t4midcal"
+
+	icon = "GFX_ship_part_mass_driver_4"
+	icon_frame = 1
+}
+companent_set = {
+	key = "t5midcal"
+
+	icon = "GFX_ship_part_mass_driver_5"
+	icon_frame = 1
+}
+companent_set = {
+	key = "t1mrls"
+
+	icon = "GFX_ship_part_missile_1"
+	icon_frame = 1
+}
+companent_set = {
+	key = "t2mrls"
+
+	icon = "GFX_ship_part_missile_2"
+	icon_frame = 1
+}
+companent_set = {
+	key = "t3mrls"
+
+	icon = "GFX_ship_part_missile_3"
+	icon_frame = 1
+}
+companent_set = {
+	key = "t4mrls"
+
+	icon = "GFX_ship_part_missile_4"
+	icon_frame = 1
+}
+companent_set = {
+	key = "t5mrls"
+
+	icon = "GFX_ship_part_missile_5"
+	icon_frame = 1
+}
